@@ -20,7 +20,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
 
+        <image.repo.prefix>docker.io/statter</image.repo.prefix>
         <image.basic>openjdk:17-jdk-buster</image.basic>
+        <image.repo.auth.username>statter</image.repo.auth.username>
+        <image.repo.auth.password>statter</image.repo.auth.password>
         <maven.build.timestamp.format>yyyyMMdd.HHmm</maven.build.timestamp.format>
     </properties>
 
