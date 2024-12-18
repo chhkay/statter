@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.synctech</groupId>
+    <groupId>com.statter</groupId>
     <version>1.1.1</version>
     <artifactId>statter</artifactId>
     <packaging>pom</packaging>
@@ -20,12 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
 
-        <image.repo.prefix>swr.cn-north-4.myhuaweicloud.com/synctech</image.repo.prefix>
         <image.basic>openjdk:17-jdk-buster</image.basic>
-        <image.repo.auth.username>cn-north-4@A0AAZNO5HZN1RZ5TWT9W</image.repo.auth.username>
-        <image.repo.auth.password>
-            15b9549fe73f98a846d5453fd8df0ea0b45c3cc3b9d4ffe31aaa9ad5b90877b8
-        </image.repo.auth.password>
         <maven.build.timestamp.format>yyyyMMdd.HHmm</maven.build.timestamp.format>
     </properties>
 
